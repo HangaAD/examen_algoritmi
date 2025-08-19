@@ -3,8 +3,12 @@
 from typing import List, Any
 
 def linear_search(a: List[Any], x: Any) -> bool:
-    # TODO
-    return False
+    found=False
+    for el in a:
+        if el==x:
+            found=True
+        
+    return found
 
 if __name__ == "__main__":
     arr = [4, 7, 1, 9]
